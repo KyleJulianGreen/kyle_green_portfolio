@@ -1,0 +1,290 @@
+*{
+	margin: auto;
+	padding: 0px;
+}
+#wrapper{
+min-height: 1050px;
+width: 1000px;
+outline: 1px solid black;
+background-image: radial-gradient(#6F5964, black); 
+
+}
+#header{
+	min-height: 65px;
+	width: 1000px;
+	background-color: white;
+	display: inline-flex;
+
+}
+#Name{
+	font-size: 30px;
+	font-family:  "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+	padding-right: 150px;
+	
+
+}
+#nickname{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding-left: 150px;
+}
+#topcontent{
+	width: 950px;
+	min-height: 325px;
+	display: inline-flex;
+	padding: 0px 0px 0px 30px;
+
+}
+#topright{
+	width: 475px;
+	min-height: 268px;
+	background-color: #DCCEDB;
+
+	margin: auto;
+}
+#topimg{
+	width: 400px;
+	min-height: 264px;
+	/*padding-right: 10px;*/
+	padding-top: 4px;
+}
+#about{
+	background-image: linear-gradient(silver, gray, silver); 
+
+	color: white;
+	min-height: 35px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 5px 0px 0px 10px;
+}
+#content1{
+	padding-top: 9px;
+	padding-left: 10px;
+	font-size: 16px;	
+}
+#continue{
+	padding-left: 10px;
+	
+}
+
+#bottomcontent{
+	width: 950px;
+	min-height: 600px; 
+	display: flex;
+}
+#box1{
+	width: 285px;
+	min-height: 550px;
+	background-color: #DCCEDB;
+	margin: 10px 15px 25px;
+}
+#box2{
+	width: 285px;
+	min-height: 550px;
+	background-color: #DCCEDB;
+	margin: 10px 15px 25px;
+}
+#box3{
+	width: 285px;
+	min-height: 550px;
+	background-color: #DCCEDB;
+	margin: 10px 15px 25px;
+}
+#footer{
+	min-height: 65px;
+	width: 1000px;
+	background-color: white;
+}
+.headers{
+	min-height: 40px;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px 0px 0px 10px;
+	color: white;
+	font-family: sans-serif;
+	background-image: linear-gradient(silver, gray, silver); 
+}
+.content2{
+	width: 275px;
+	min-height: 175px;
+	background-color: #DCCEDB;
+	padding-top: 9px;
+	padding-left: 10px;
+	font-size: 16px;	
+}
+.header2{
+	min-height: 35px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 7px 0px 0px 10px;
+	color: white;
+	font-family: sans-serif;
+	background-image: linear-gradient(silver, gray, silver); 
+}
+.images{
+	width: 270px;
+	min-height: 100px;
+	background-color: #DCCEDB;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+.button1{
+  background-color: #407D61;
+  border: 1px solid black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px 25px 105px;
+  box-shadow: 1px 3px #888888;
+  cursor: pointer;
+}
+.button2{
+  background-color: #407D61;
+  border: 1px solid black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px 25px 85px;
+  box-shadow: 1px 3px #888888;
+  cursor: pointer;
+}
+.button3{
+  background-color: #407D61;
+  border: 1px solid black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px 25px 105px;
+  box-shadow: 1px 3px #888888;
+  cursor: pointer;
+}
+.info{
+	text-align: center;
+	padding: 5px 0px 0px 0px;
+	font-size: 17px;
+}
+.social{
+	text-align: center;
+	font-size: 17px;
+	padding: 5px 0px 0px 0px;
+}
+img[src="photo_of_me.jpg"]{
+	width: 400px;
+	min-height: 264px;
+	outline: 4px solid lightgray;
+}
+img[src="lamode.png"]{
+	min-height: 150px;
+	width: 285px;
+}img[src="familycontacts.png"]{
+	min-height: 150px;
+	width: 285px;
+}
+img[src="fiveEleven.png"]{
+	min-height: 150px;
+	width: 285px;
+}
+img[src="php.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="codeigniter.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="jQuery.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="ajax.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="mysql.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="HTML.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="CSS.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="bootstrap.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="angular.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="socket.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="JavaScript.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="nodejs.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="mongodb.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="expressjs.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="python.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="materialize.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="sqlite.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="d3.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="django.png"]{
+	min-height: 40px;
+	width: 40px;
+}
+img[src="github.png"]{
+	min-height: 15px;
+	width: 15px;
+}
+img[src="linkedin.png"]{
+	min-height: 15px;
+	width: 15px;
+}img[src="twitter.png"]{
+	min-height: 15px;
+	width: 15px;
+}img[src="codepen.png"]{
+	min-height: 15px;
+	width: 15px;
+}
+
+
